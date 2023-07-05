@@ -1,0 +1,131 @@
+  @import url('https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Halant', sans-serif;
+  /* background: linear-gradient(
+    to right,
+    red 20%,
+    orange 20% 40%,
+    yellow 40% 60%,
+    green 60% 80%,
+    blue 80%
+  ); */
+ }
+ .outer-box{
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(to top left,green,red );
+     */
+     background-color: skyblue;
+ }
+ .inner-box header h1{
+    text-align: center;
+    color: #2773a5;
+ }
+
+.inner-box{
+    margin:0px auto;
+    width: 340px;
+         position: relative;
+        top:50%;
+        transform: translateY(-50%)  ;
+    padding:  40px; 
+    background-color:#ffffff09;
+    border-radius:10px;
+    box-shadow: 40px 20px  50px  #2773a5;
+    z-index:2;
+    backdrop-filter: blur(8px);
+}
+.signup-body{
+    margin:20px 0;
+}
+.signup-body p{
+    margin: 10px 0;
+}
+
+.signup-body p label{
+    display:block;
+    font-weight:bold;
+}
+.signup-body p input {
+    width:100%;
+    padding:10px;
+    border:2px  solid #cccc;
+    border-radius: 3px;
+    font-size:1rem;
+    margin-top:4px;
+}
+.signup-body p input[type="submit"]{
+  background-color:#2773a5;
+  color:white;
+  font-weight: bolder;
+
+}
+.signup-body footer{
+    color:#555;
+    text-align: center;
+}
+.circle{
+width:200px;
+height: 200px;
+    border-radius: 90px 10px ;
+    /* background-color:red; */
+    background:linear-gradient(to top right,#ede907ee,#ffffffff);
+    position: absolute;
+    bottom:0px;
+}
+.circle1{
+    
+width:200px;
+height: 200px;
+    border-radius: 90px 10px ;
+    /* background-color:red; */
+    background:linear-gradient(to bottom left,#d51ab6eb,#ffffffff);
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+.circle2{
+    
+    width:200px;
+    height: 200px;
+        border-radius: 10px 90px ;
+        /* background-color:red; */
+        background:linear-gradient(to bottom left,#13440be7,#ffffffff);
+        position: absolute;
+        bottom:0px;
+        right:0px;
+    }
+    .circle3{
+    
+        width:200px;
+        height: 200px;
+            border-radius: 10px 90px ;
+            /* background-color:red; */
+            background:linear-gradient(to bottom left,#7009cb33,#ffffffff);
+            position: absolute;
+            top:0px;
+            left:0px;
+        }
+        .cir{
+            width:150px;
+            height: 200px;
+            border-radius: 45px;
+            background:linear-gradient(to right,#75dffac9,#ffffffff);
+            position:absolute;
+        }
+        .c1{
+            top:400px;
+            left:490px;
+        }
+        .c2{
+            bottom:400px;
+            right:500px;
+        }
